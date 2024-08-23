@@ -1,0 +1,5 @@
+return {
+    {
+        "juliosueiras/nomad-lsp"
+    },
+}
