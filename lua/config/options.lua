@@ -16,3 +16,7 @@ opt.incsearch = false
 
 opt.swapfile = false
 opt.backup = false
+
+local wo = vim.wo
+
+wo.relativenumber = false
