@@ -19,4 +19,4 @@ opt.backup = false
 
 local wo = vim.wo
 
-wo.relativenumber = false
+wo.relativenumber = true
