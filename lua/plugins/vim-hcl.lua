@@ -1,5 +1,5 @@
 return {
-    {
-        "jvirtanen/vim-hcl"
-    },
+  {
+    "jvirtanen/vim-hcl",
+  },
 }

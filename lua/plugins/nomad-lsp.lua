@@ -1,5 +1,5 @@
 return {
-    {
-        "juliosueiras/nomad-lsp"
-    },
+  {
+    "juliosueiras/nomad-lsp",
+  },
 }

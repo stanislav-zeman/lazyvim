@@ -1,5 +1,5 @@
 return {
-    {
-        'fabridamicelli/cronex.nvim',
-    }
+  {
+    "fabridamicelli/cronex.nvim",
+  },
 }

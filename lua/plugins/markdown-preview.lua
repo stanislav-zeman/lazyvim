@@ -1,5 +1,5 @@
 return {
-    {
-        "davidgranstrom/nvim-markdown-preview"
-    },
+  {
+    "davidgranstrom/nvim-markdown-preview",
+  },
 }
