@@ -19,6 +19,16 @@ return {
       if LazyVim.has("nvim-snippets") then
         table.insert(opts.sources, { name = "snippets" })
       end
+      opts.window = {
+        completion = {
+          border = "rounded",
+          scrollbar = "║",
+        },
+        documentation = {
+          border = "rounded",
+          scrollbar = "║",
+        },
+      }
     end,
     keys = {
       {
