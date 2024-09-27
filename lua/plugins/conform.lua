@@ -18,9 +18,6 @@ return {
         sql = { "sqlfluff", "sqlfmt " },
         yaml = { "yamlfmt", "yamlfix" },
       },
-      format_on_save = {
-        timeout_ms = 1000,
-      },
     },
   },
 }
