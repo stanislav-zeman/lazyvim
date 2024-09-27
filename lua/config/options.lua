@@ -23,4 +23,4 @@ local wo = vim.wo
 
 wo.relativenumber = true
 wo.signcolumn = "number"
-wo.numberwidth = 9
+wo.numberwidth = 6
