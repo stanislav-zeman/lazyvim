@@ -21,20 +21,6 @@ return {
         "Notify",
       },
       {
-        "<leader>d",
-        group = "Diagnostics",
-      },
-      {
-        "<leader>dd",
-        "<cmd>Lspsaga diagnostic_jump_next<cr>",
-        "Next",
-      },
-      {
-        "<leader>dD",
-        "<cmd>Lspsaga diagnostic_jump_prev<cr>",
-        "Previous",
-      },
-      {
         "<leader>e",
         "<cmd>Neotree toggle<CR>",
         "Tree toggle",
@@ -75,7 +61,7 @@ return {
       {
         "<leader>ad",
         "<cmd>Lspsaga goto_definition<CR>",
-        desc = "Goto Definition",
+        desc = "Definition",
       },
       {
         "<leader>aD",
@@ -88,6 +74,11 @@ return {
         desc = "Finder",
       },
       {
+        "<leader>ar",
+        "<cmd>Lspsaga rename<CR>",
+        desc = "Rename",
+      },
+      {
         "<leader>ao",
         "<cmd>Lspsaga outline<CR>",
         desc = "Outline",
@@ -96,6 +87,16 @@ return {
         "<leader>ap",
         "<cmd>Lspsaga peek_definition<CR>",
         desc = "Peek",
+      },
+      {
+        "<leader>ax",
+        "<cmd>Lspsaga diagnostic_jump_next<cr>",
+        desc = "Next",
+      },
+      {
+        "<leader>aX",
+        "<cmd>Lspsaga diagnostic_jump_prev<cr>",
+        desc = "Previous",
       },
       {
         "<leader>tj",
