@@ -31,21 +31,21 @@ return {
         "Tree focus",
       },
       {
-        "<leader>p",
+        "<leader>P",
         group = "Preview",
       },
       {
-        "<leader>pm",
+        "<leader>Pm",
         "<cmd>MarkdownPreview<CR>",
         desc = "Markdown",
       },
       {
-        "<leader>ps",
+        "<leader>Ps",
         "<cmd>SwaggerPreview<CR>",
         desc = "Swagger",
       },
       {
-        "<leader>pS",
+        "<leader>PS",
         "<cmd>SwaggerPreviewStop<CR>",
         desc = "Swagger Stop",
       },
