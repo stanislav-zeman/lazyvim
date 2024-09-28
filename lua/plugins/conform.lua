@@ -2,21 +2,23 @@ return {
   {
     "stevearc/conform.nvim",
     opts = {
-      formaters = {
+      formatters = {
         golines = {
           args = { "-m", "120" },
+        },
+        sqlfluff = {
+          args = { "format", "-" },
+          stdin = true,
         },
       },
       formatters_by_ft = {
         go = { "gofumpt", "golines", "goimports", "gci" },
-        hcl = { "hcl" },
         javascript = { "prettierd", "prettier", stop_after_first = true },
         lua = { "stylua" },
-        markdown = { "markdownfmt" },
-        python = { "isort", "black" },
+        markdown = { "markdownlint-cli2" },
         rust = { "rustfmt" },
-        sql = { "sqlfluff", "sqlfmt " },
-        yaml = { "yamlfmt", "yamlfix" },
+        sql = { "sqlfluff" },
+        yaml = { "yamlfmt" },
       },
     },
   },
