@@ -19,6 +19,8 @@ opt.backup = false
 
 opt.pumblend = 0
 
+opt.confirm = false
+
 local wo = vim.wo
 
 wo.relativenumber = true
