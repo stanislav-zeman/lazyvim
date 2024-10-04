@@ -10,6 +10,17 @@ return {
           args = { "format", "-" },
           stdin = true,
         },
+        injected = {
+          options = {
+            ignore_errors = false,
+            lang_to_formatters = {
+              sql = { "sqlfluff" },
+            },
+            lang_to_ext = {
+              sql = "sql",
+            },
+          },
+        },
       },
       formatters_by_ft = {
         go = { "gofumpt", "golines", "goimports", "gci" },
@@ -17,8 +28,9 @@ return {
         lua = { "stylua" },
         markdown = { "markdownlint-cli2" },
         rust = { "rustfmt" },
-        sql = { "sqlfluff" },
+        sql = { "sqlfluff", "injected" },
         yaml = { "yamlfmt" },
+        ["*"] = { "injected" },
       },
     },
   },
