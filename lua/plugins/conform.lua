@@ -24,9 +24,9 @@ return {
       },
       formatters_by_ft = {
         go = { "gofumpt", "golines", "goimports", "gci" },
-        javascript = { "prettierd", "prettier", stop_after_first = true },
+        javascript = { "prettier" },
         lua = { "stylua" },
-        markdown = { "markdownlint-cli2" },
+        markdown = { "marksman" },
         rust = { "rustfmt" },
         sql = { "sqlfluff", "injected" },
         yaml = { "yamlfmt" },
