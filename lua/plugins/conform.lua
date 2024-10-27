@@ -3,6 +3,9 @@ return {
     "stevearc/conform.nvim",
     opts = {
       formatters = {
+        dart_format = {
+          args = { "format", "--line-length", "120" },
+        },
         golines = {
           args = { "-m", "120" },
         },
@@ -23,6 +26,7 @@ return {
         },
       },
       formatters_by_ft = {
+        dart = { "dart_format" },
         go = { "gofumpt", "golines", "goimports", "gci" },
         javascript = { "prettier" },
         lua = { "stylua" },
