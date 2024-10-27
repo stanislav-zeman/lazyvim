@@ -18,6 +18,13 @@ return {
         },
         lualine_x = {
           {
+            require("lazy.status").updates,
+            cond = require("lazy.status").has_updates,
+            color = function()
+              return LazyVim.ui.fg("Special")
+            end,
+          },
+          {
             "diagnostics",
             symbols = {
               error = icons.diagnostics.Error,
