@@ -14,6 +14,12 @@ return {
               hints = {
                 parameterNames = false, -- generates artifacts
               },
+              -- Codelenses
+              codelenses = {
+                gc_details = true,
+                run_govulncheck = true,
+                test = true,
+              },
               -- Analyses
               vulncheck = "Imports",
               analyses = {
