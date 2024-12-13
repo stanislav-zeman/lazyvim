@@ -34,6 +34,7 @@ return {
         rust = { "rustfmt" },
         sql = { "sqlfluff", "injected" },
         yaml = { "yamlfmt" },
+        proto = { "buf" },
         ["*"] = { "injected" },
       },
     },
