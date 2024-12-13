@@ -3,6 +3,9 @@ return {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
+        clangd = {
+          filetypes = { "c", "cpp", "objc", "objcpp", "cuda" }, -- removes proto
+        },
         gopls = {
           settings = {
             gopls = {
