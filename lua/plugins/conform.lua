@@ -36,7 +36,7 @@ return {
         rust = { "rustfmt" },
         sql = { "sqlfluff", "injected" },
         yaml = { "yamlfmt" },
-        ["*"] = { "injected" },
+        ["*"] = { "injected", "typos" },
       },
     },
   },
