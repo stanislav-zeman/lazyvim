@@ -4,7 +4,7 @@ return {
     opts = {
       formatters = {
         dart_format = {
-          args = { "format", "--line-length", "120" },
+          args = { "format", "--page-width", "120" },
         },
         golines = {
           args = { "-m", "120" },
