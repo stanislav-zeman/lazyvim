@@ -20,9 +20,9 @@ return {
           {
             require("lazy.status").updates,
             cond = require("lazy.status").has_updates,
-            color = function()
-              return LazyVim.ui.fg("Special")
-            end,
+            -- color = function()
+            --   return LazyVim.ui.fg("Special")
+            -- end,
           },
           {
             "diagnostics",
@@ -40,9 +40,9 @@ return {
             cond = function()
               return package.loaded["noice"] and require("noice").api.status.mode.has()
             end,
-            color = function()
-              return LazyVim.ui.fg("Constant")
-            end,
+            -- color = function()
+            --   return LazyVim.ui.fg("Constant")
+            -- end,
           },
           {
             function()
@@ -51,9 +51,9 @@ return {
             cond = function()
               return package.loaded["dap"] and require("dap").status() ~= ""
             end,
-            color = function()
-              return LazyVim.ui.fg("Debug")
-            end,
+            -- color = function()
+            --   return LazyVim.ui.fg("Debug")
+            -- end,
           },
         },
         lualine_y = {
