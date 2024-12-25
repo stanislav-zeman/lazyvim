@@ -31,7 +31,6 @@ return {
         javascript = { "prettier" },
         json = { "fixjson", "jq" },
         lua = { "stylua" },
-        markdown = { "marksman" },
         proto = { "buf" },
         rust = { "rustfmt" },
         sql = { "sqlfluff", "injected" },
