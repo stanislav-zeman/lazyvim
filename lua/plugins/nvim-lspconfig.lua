@@ -3,6 +3,9 @@ return {
     "neovim/nvim-lspconfig",
     opts = {
       servers = {
+        bashls = {
+          filetypes = { "sh", "zsh" },
+        },
         clangd = {
           filetypes = { "c", "cpp", "objc", "objcpp", "cuda" }, -- removes proto
         },
