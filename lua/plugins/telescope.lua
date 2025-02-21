@@ -1,6 +1,7 @@
 return {
   {
     "nvim-telescope/telescope.nvim",
+    enabled = false,
     opts = {
       defaults = {
         layout_strategy = "vertical",
