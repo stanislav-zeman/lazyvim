@@ -21,11 +21,6 @@ return {
         nil,
       },
       {
-        "<leader>fn",
-        "<cmd>Telescope notify<cr>",
-        "Notify",
-      },
-      {
         "<leader>e",
         "<cmd>Neotree toggle<CR>",
         "Tree toggle",
