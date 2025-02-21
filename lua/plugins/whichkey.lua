@@ -118,6 +118,11 @@ return {
         "<cmd>set filetype=toml<CR>",
         desc = "Set TOML",
       },
+      {
+        "<leader>ga",
+        "<cmd>GitBlameToggle<CR>",
+        desc = "Git Blame Inline",
+      },
     },
   },
 }
