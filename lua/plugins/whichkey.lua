@@ -64,14 +64,19 @@ return {
         desc = "Definitions",
       },
       {
-        "<leader>aD",
-        "<cmd>FzfLua lsp_document_diagnostics<cr>",
-        desc = "Diagnostics",
+        "<leader>ai",
+        "<cmd>FzfLua lsp_implementations<CR>",
+        desc = "Implementations",
       },
       {
         "<leader>af",
         "<cmd>FzfLua lsp_finder<cr>",
         desc = "Finder",
+      },
+      {
+        "<leader>as",
+        "<cmd>FzfLua lsp_document_symbols<cr>",
+        desc = "Document Symbols",
       },
       {
         "<leader>aq",
