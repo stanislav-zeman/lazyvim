@@ -13,3 +13,5 @@ set("n", "<C-M-h>", '<cmd>lua require("tmux").resize_left()<cr>', { desc = "Resi
 set("n", "<C-M-j>", '<cmd>lua require("tmux").resize_bottom()<cr>', { desc = "Resize pane to bottom" })
 set("n", "<C-M-k>", '<cmd>lua require("tmux").resize_top()<cr>', { desc = "Resize pane to top" })
 set("n", "<C-M-l>", '<cmd>lua require("tmux").resize_right()<cr>', { desc = "Resize pane to right" })
+
+set("n", "[x", '<cmd>lua require("treesitter-context").go_to_context(vim.v.count1)<cr>', { desc = "Goto Context" })
