@@ -74,6 +74,11 @@ return {
         desc = "Finder",
       },
       {
+        "<leader>ag",
+        "<cmd>GoDocs<cr>",
+        desc = "Go Docs",
+      },
+      {
         "<leader>as",
         "<cmd>FzfLua lsp_document_symbols<cr>",
         desc = "Document Symbols",
