@@ -27,6 +27,10 @@ return {
           args = { "format", "-" },
           stdin = true,
         },
+        tagalign = {
+          command = "tagalign",
+          args = { "-fix" },
+        },
       },
       formatters_by_ft = {
         dart = { "dart_format" },
