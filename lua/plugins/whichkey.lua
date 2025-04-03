@@ -74,6 +74,11 @@ return {
         desc = "Finder",
       },
       {
+        "<leader>ar",
+        "<cmd>FzfLua lsp_references<CR>",
+        desc = "References",
+      },
+      {
         "<leader>ag",
         "<cmd>GoDocs<cr>",
         desc = "Go Docs",
