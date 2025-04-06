@@ -26,3 +26,12 @@ local wo = vim.wo
 wo.relativenumber = true
 wo.signcolumn = "number"
 wo.numberwidth = 6
+
+local vd = vim.diagnostic
+
+vd.config({
+  float = {
+    source = true,
+    border = "rounded",
+  },
+})
