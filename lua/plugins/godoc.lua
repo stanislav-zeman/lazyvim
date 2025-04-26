@@ -1,7 +1,6 @@
 return {
   {
     "fredrikaverpil/godoc.nvim",
-    version = "*",
     dependencies = {
       { "folke/snacks.nvim" },
       {
