@@ -19,7 +19,6 @@ return {
       lsp_on_attach = nil,
       lsp_keymaps = true,
       lsp_codelens = true,
-      null_ls = false,
       diagnostic = false,
       lsp_document_formatting = true,
       trouble = true,
