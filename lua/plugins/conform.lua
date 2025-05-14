@@ -20,6 +20,11 @@ return {
             },
           },
         },
+        kulala = {
+          command = "kulala-fmt",
+          args = { "format", "$FILENAME" },
+          stdin = false,
+        },
         shfmt = {
           args = { "--ln", "bash" },
         },
@@ -35,6 +40,7 @@ return {
       formatters_by_ft = {
         dart = { "dart_format" },
         go = { "gofumpt", "golines", "goimports", "gci" },
+        http = { "kulala" },
         javascript = { "prettier" },
         json = { "fixjson", "jq" },
         lua = { "stylua" },
