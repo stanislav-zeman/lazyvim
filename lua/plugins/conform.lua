@@ -44,7 +44,7 @@ return {
         sql = { "sqlfluff", "injected" },
         yaml = { "yamlfmt" },
         ["*sh"] = { "shfmt", "shellcheck" },
-        ["*"] = { "injected", "typos" },
+        ["*"] = { "typos" },
       },
     },
   },
