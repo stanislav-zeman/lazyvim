@@ -54,6 +54,7 @@ return {
         golangci_lint_ls = {
           filetypes = { "go", "gomod" },
         },
+        taplo = {},
       },
     },
   },
