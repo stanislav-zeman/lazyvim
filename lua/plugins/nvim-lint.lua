@@ -13,6 +13,8 @@ return {
     linters_by_ft = {
       sql = { "sqlfluff" },
       toml = { "taplo" },
+      yaml = { "yamllint", "yq" },
+      ["*"] = { "typos" },
     },
   },
 }
