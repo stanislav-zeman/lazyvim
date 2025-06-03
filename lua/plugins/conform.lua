@@ -51,7 +51,7 @@ return {
         rust = { "rustfmt" },
         sql = { "sqlfluff", "injected" },
         tf = { "terraform_fmt" },
-        yaml = { "yamlfmt", "yq" },
+        yaml = { "yamlfmt" },
         ["*sh"] = { "shfmt", "shellcheck" },
         ["*"] = { "typos" },
       },
