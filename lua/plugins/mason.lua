@@ -25,6 +25,7 @@ return {
         "golines",
         "gomodifytags",
         "gopls",
+        "gotests",
         "jq",
         "json-lsp",
         "kcl",
