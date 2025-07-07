@@ -53,7 +53,6 @@ return {
         tf = { "terraform_fmt" },
         yaml = { "yamlfmt" },
         ["*sh"] = { "shfmt", "shellcheck" },
-        ["*"] = { "typos" },
       },
     },
   },
