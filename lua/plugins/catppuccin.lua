@@ -6,6 +6,9 @@ return {
     opts = {
       flavour = "frappe",
       transparent_background = true,
+      float = {
+        transparent = true,
+      },
       show_end_of_buffer = false,
       term_colors = false,
       no_italic = false,
