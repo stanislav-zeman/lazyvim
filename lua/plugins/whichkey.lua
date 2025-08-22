@@ -9,10 +9,6 @@ return {
     },
     keys = {
       {
-        "<leader>K",
-        nil,
-      },
-      {
         "<leader>l",
         nil,
       },
@@ -109,17 +105,21 @@ return {
         desc = "Previous",
       },
       {
-        "<leader>tj",
+        "<leader>T",
+        group = "Filetypes",
+      },
+      {
+        "<leader>Tj",
         "<cmd>set filetype=json<CR>",
         desc = "Set JSON",
       },
       {
-        "<leader>ty",
+        "<leader>Ty",
         "<cmd>set filetype=yaml<CR>",
         desc = "Set YAML",
       },
       {
-        "<leader>tt",
+        "<leader>Tt",
         "<cmd>set filetype=toml<CR>",
         desc = "Set TOML",
       },
