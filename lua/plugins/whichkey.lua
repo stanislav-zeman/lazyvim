@@ -18,13 +18,13 @@ return {
       },
       {
         "<leader>e",
-        "<cmd>Neotree toggle<CR>",
-        "Tree toggle",
+        "<cmd>Neotree focus<CR>",
+        "Tree focus",
       },
       {
         "<leader>E",
-        "<cmd>Neotree focus<CR>",
-        "Tree focus",
+        "<cmd>Neotree toggle<CR>",
+        "Tree toggle",
       },
       {
         "<leader>P",
