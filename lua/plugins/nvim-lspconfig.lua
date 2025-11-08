@@ -1,18 +1,3 @@
-local lspconfig = require("lspconfig")
-local configs = require("lspconfig/configs")
-
-if not configs.golangcilsp then
-  configs.golangcilsp = {
-    default_config = {
-      cmd = { "golangci-lint-langserver" },
-      root_dir = lspconfig.util.root_pattern(".git", "go.mod"),
-      init_options = {
-        command = { "golangci-lint", "run", "--output.json.path", "stdout", "--issues-exit-code=1" },
-      },
-    },
-  }
-end
-
 return {
   {
     "neovim/nvim-lspconfig",
@@ -50,9 +35,6 @@ return {
               },
             },
           },
-        },
-        golangci_lint_ls = {
-          filetypes = { "go", "gomod" },
         },
       },
     },
