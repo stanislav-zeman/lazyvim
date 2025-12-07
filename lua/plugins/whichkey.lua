@@ -9,14 +9,6 @@ return {
     },
     keys = {
       {
-        "<leader>l",
-        nil,
-      },
-      {
-        "<leader>L",
-        nil,
-      },
-      {
         "<leader>e",
         "<cmd>Neotree focus<CR>",
         "Tree focus",
