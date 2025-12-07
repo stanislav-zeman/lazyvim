@@ -9,6 +9,15 @@ return {
     },
     keys = {
       {
+        "<leader>A",
+        group = "AI",
+      },
+      {
+        "<leader>At",
+        "<cmd>Copilot toggle<CR>",
+        "AI Toggle",
+      },
+      {
         "<leader>e",
         "<cmd>Neotree focus<CR>",
         "Tree focus",
